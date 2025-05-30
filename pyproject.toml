@@ -1,0 +1,16 @@
+[project]
+name = "hunyuanvideo-avatar"
+description = "ComfyUI-HunyuanVideo-Avatar is now available in ComfyUI, HunyuanVideo-Avatar is a multimodal diffusion transformer (MM-DiT)-based model capable of simultaneously generating dynamic, emotion-controllable, and multi-character dialogue videos."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["opencv-python==4.9.0.80", "diffusers==0.33.0", "transformers==4.45.1", "accelerate==1.1.1", "pandas==2.0.3", "numpy==1.24.4", "einops==0.7.0", "tqdm==4.66.2", "loguru==0.7.2", "imageio==2.34.0", "imageio-ffmpeg==0.5.1", "safetensors==0.4.3", "gradio==4.42.0", "fastapi==0.115.12", "uvicorn==0.34.2", "decord==0.6.0", "librosa==0.11.0", "scikit-video==1.1.11", "ffmpeg"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-HunyuanVideo-Avatar"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-HunyuanVideo-Avatar"
+Icon = ""
+includes = []
